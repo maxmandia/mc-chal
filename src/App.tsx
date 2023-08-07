@@ -1,8 +1,10 @@
+import WorkflowModal from "./components/WorkflowModal";
+
 function App() {
   return (
-    <>
-      <p className="text-[900px]">hey</p>
-    </>
+    <main className="h-screen flex justify-center items-center">
+      <WorkflowModal />
+    </main>
   );
 }
 
