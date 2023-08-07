@@ -3,6 +3,7 @@ import DaysRow from "./DaysRow";
 
 function WorkflowModal() {
   const [selectedDays, setSelectedDays] = React.useState<string[]>([]);
+
   return (
     <div className="bg-white p-10 rounded-[8px]">
       <div className="h-5 w-5 bg-slate-500" />
@@ -43,7 +44,7 @@ function WorkflowModal() {
         </h2>
         <div className="flex items-center justify-between mt-4">
           <h4 className="text-[#356EAA] font-bold text-[24px]">
-            X:XX
+            6:15
             <span className="text-[#767D83] text-[12px] ml-1">am</span>
           </h4>
           <button className="py-1 px-2 text-[#767D83] border-[2px] border-[#F3F5F7] text-[12px] font-medium">
